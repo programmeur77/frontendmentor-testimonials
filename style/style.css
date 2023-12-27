@@ -29,34 +29,55 @@ body {
 .testimonial-grid {
   display: grid;
 }
+.testimonial-grid .testimonial {
+  border-radius: 15px;
+  padding: 10px;
+}
 .testimonial-grid .testimonial--quote {
-  background-color: var(--moderate-violet);
   background-image: url("./../images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 10px;
+  background-color: var(--moderate-violet);
+}
+.testimonial-grid .testimonial--grayish-blue {
+  background-color: var(--dark-grayish-blue);
+}
+.testimonial-grid .testimonial--dark-blue {
+  background-color: var(--dark-blackfish-blue);
+}
+.testimonial-grid .testimonial--font-white {
   color: var(--white);
-  border-radius: 15px;
+}
+.testimonial-grid .testimonial--font-grayish-blue {
+  color: var(--dark-grayish-blue);
+}
+.testimonial-grid .testimonial--white {
+  background-color: var(--white);
 }
 .testimonial-grid .testimonial .testmonial-author-info {
   display: flex;
-  flex-wrap: wrap;
   gap: 1.5rem;
 }
-.testimonial-grid .testimonial .testmonial-author-info .testimonial-user-info--flex-column {
-  flex-direction: column;
+.testimonial-grid .testimonial .testmonial-author-info--white {
+  color: var(--white);
 }
 .testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__picture {
   border-radius: 50%;
 }
-.testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__name {
-  margin-bottom: 0;
-}
-.testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__graduate-status {
+.testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__graduate-status--opacity-white-50 {
   color: hsla(0, 0%, 100%, 0.5);
 }
-.testimonial-grid .testimonial .testimonial__title {
+.testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__graduate-status--opacity-grayish-blue-50 {
+  color: hsla(217, 19%, 35%, 0.5);
+}
+.testimonial-grid .testimonial__title {
   font-size: 1.5rem;
+}
+.testimonial-grid .testimonial .testimonial__content--opacity-white-50 {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.testimonial-grid .testimonial .testimonial__content--opacity-grayish-blue-50 {
+  color: hsla(217, 19%, 35%, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */

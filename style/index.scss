@@ -31,41 +31,69 @@ body {
 .testimonial-grid {
   display: grid;
 
-  .testimonial--quote {
-    background-color: var(--moderate-violet);
-    background-image: url('./../images/bg-pattern-quotation.svg');
-    background-repeat: no-repeat;
-    background-position: top right;
-    padding: 10px;
-    color: var(--white);
-    border-radius: 15px;
-  }
-
   .testimonial {
+    border-radius: 15px;
+    padding: 10px;
+
+    &--quote {
+      background-image: url('./../images/bg-pattern-quotation.svg');
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-color: var(--moderate-violet);
+    }
+
+    &--grayish-blue {
+      background-color: var(--dark-grayish-blue);
+    }
+
+    &--dark-blue {
+      background-color: var(--dark-blackfish-blue);
+    }
+
+    &--font-white {
+      color: var(--white);
+    }
+
+    &--font-grayish-blue {
+      color: var(--dark-grayish-blue);
+    }
+
+    &--white {
+      background-color: var(--white);
+    }
+
     .testmonial-author-info {
       display: flex;
-      flex-wrap: wrap;
       gap: 1.5rem;
 
-      .testimonial-user-info--flex-column {
-        flex-direction: column;
+      &--white {
+        color: var(--white);
       }
 
-      .testimonial-author-info__picture {
+      & .testimonial-author-info__picture {
         border-radius: 50%;
       }
 
-      .testimonial-author-info__name {
-        margin-bottom: 0;
-      }
-
-      .testimonial-author-info__graduate-status {
-        color: hsla(0, 0%, 100%, 0.5);
+      & .testimonial-author-info__graduate-status {
+        &--opacity-white-50 {
+          color: hsla(0, 0%, 100%, 0.5);
+        }
+        &--opacity-grayish-blue-50 {
+          color: hsla(217, 19%, 35%, 0.5);
+        }
       }
     }
-
-    .testimonial__title {
+    &__title {
       font-size: 1.5rem;
+    }
+
+    & .testimonial__content {
+      &--opacity-white-50 {
+        color: hsla(0, 0%, 100%, 0.5);
+      }
+      &--opacity-grayish-blue-50 {
+        color: hsla(217, 19%, 35%, 0.5);
+      }
     }
   }
 }
