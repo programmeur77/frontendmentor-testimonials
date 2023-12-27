@@ -1,0 +1,23 @@
+{
+  "name": "testimonials",
+  "version": "1.0.0",
+  "description": "frontendmentor.com testimonials challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cssDev": "sass --watch style/*.css style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmeur77/frontendmentor-testimonials.git"
+  },
+  "author": "Benoit Puech / Frontendmentor.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmeur77/frontendmentor-testimonials/issues"
+  },
+  "homepage": "https://github.com/programmeur77/frontendmentor-testimonials#readme",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
