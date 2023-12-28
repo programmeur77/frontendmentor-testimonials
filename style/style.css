@@ -78,6 +78,12 @@ body {
 .testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__picture {
   border-radius: 50%;
 }
+.testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__picture--border-white-opacity-50 {
+  border: 5px solid hsla(0, 0%, 100%, 0.5);
+}
+.testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__picture--border-violet {
+  border: 5px solid var(--moderate-violet);
+}
 .testimonial-grid .testimonial .testmonial-author-info .testimonial-author-info__graduate-status--opacity-white-50 {
   color: hsla(0, 0%, 100%, 0.5);
 }

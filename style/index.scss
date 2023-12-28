@@ -88,6 +88,13 @@ body {
 
       & .testimonial-author-info__picture {
         border-radius: 50%;
+        &--border-white-opacity-50 {
+          border: 5px solid hsla(0, 0%, 100%, 0.5);
+        }
+
+        &--border-violet {
+          border: 5px solid var(--moderate-violet);
+        }
       }
 
       & .testimonial-author-info__graduate-status {
